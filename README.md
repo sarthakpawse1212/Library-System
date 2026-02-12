@@ -150,10 +150,13 @@ Frontend runs on:
 -> http://localhost:5173
 
 # Default Test Accounts
-Username	Password	Role
-admin	admin123	Admin
-user	user123	User
-✅ Assignment Coverage
+
+| Username | Password   | Role  |
+|----------|------------|-------|
+| admin    | admin123   | admin |
+| user     | user123    | user  |
+
+Assignment Coverage
 
 ✔ JWT Authentication
 ✔ Role-Based Access Control

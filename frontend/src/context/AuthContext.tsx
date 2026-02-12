@@ -32,7 +32,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     setIsLoading(false);
   }, []);
 
-  // ✅ NEW: Listen to token changes from anywhere (including refresh flow)
+  // Listen to token changes from anywhere (including refresh flow)
   useEffect(() => {
     const unsubscribe = onTokenChange((newTokens) => {
       setTokens(newTokens);
